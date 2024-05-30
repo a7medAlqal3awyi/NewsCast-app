@@ -1,0 +1,44 @@
+name: your_project_name
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  flutter_screenutil: ^5.9.0
+  dio: ^5.4.3+1
+  flutter_bloc: ^8.1.5
+  fancy_shimmer_image: ^2.0.3
+  intl: ^0.17.0
+  share: ^2.0.1
+  flutter_network_connectivity: ^0.0.6
+  flutter_native_splash: ^2.3.8
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/logo.png"
+  min_sdk_android: 21 # android min sdk
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+assets:
+  - assets/icon/icon.png
+  - assets/images/
